@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BattleRoyale.Classes
 {
-    internal class Enemy
+    public class Enemy
     {
         protected int MaxHP { get; set; }
         public int CurrentHP { get; set; }
@@ -23,6 +23,8 @@ namespace BattleRoyale.Classes
             defense = 0;
             IsAlive = true;
         }
+
+
         
 
 

@@ -1,5 +1,8 @@
 ﻿using BattleRoyale.Classes;
 
-string[] combactants = new string[20];
+object[] combactants = new object[20];
+
+Enemy enemy1 = new Enemy();
+
 
 
