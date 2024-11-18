@@ -15,6 +15,7 @@ namespace BattleRoyale.Classes
             MaxHP = 15;
             CurrentHP = MaxHP;
             Attack = 6;
+            defense = 0;
             IsAlive = true;
         }
     }

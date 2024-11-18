@@ -8,9 +8,10 @@ namespace BattleRoyale.Classes
 {
     internal class Enemy
     {
-        public int MaxHP { get; set; }
+        protected int MaxHP { get; set; }
         public int CurrentHP { get; set; }
-        public int Attack { get; set; }
+        protected int Attack { get; set; }
+        protected int defense { get; set; }
         public bool IsAlive { get; set; }
 
 
@@ -19,8 +20,12 @@ namespace BattleRoyale.Classes
             MaxHP = 15;
             CurrentHP = MaxHP;
             Attack = 6;
+            defense = 0;
             IsAlive = true;
-        } 
+        }
+        
+
+
     }
     
 

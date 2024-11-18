@@ -8,7 +8,6 @@ namespace BattleRoyale.Classes
 {
     internal class Knight : Fighter
     {
-        public int defense { get; private set; }
 
 
         public new void Person()
@@ -16,6 +15,7 @@ namespace BattleRoyale.Classes
             MaxHP = 25;
             CurrentHP = MaxHP;
             Attack = 4;
+            defense = 0;
             IsAlive = true;
             defense = 3;
 
